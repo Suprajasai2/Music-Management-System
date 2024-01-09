@@ -28,8 +28,6 @@ with app.app_context():
 
 # Routes
 
-
-# ... other routes and functions ...
 from sqlalchemy.sql import text
 
 from sqlalchemy.engine import ResultProxy
@@ -51,8 +49,6 @@ def execute_query():
 def login():
     return render_template('login.html')
 
-
-# ... other routes and functions ...
 
 @app.route('/')
 def index():
